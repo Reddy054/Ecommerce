@@ -88,7 +88,7 @@ function getAllProducts(data, element){
 }
 
 const getProducts = async() => {
-    const url = 'https://gangadhar.cyclic.app'
+    const url = 'https://gangadhar.cyclic.app/products'
     const res = await fetch(url)
     const data = await res.json()
     
