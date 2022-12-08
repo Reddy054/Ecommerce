@@ -39,7 +39,7 @@ function setAllImages(images) {
 const getProductDetails = async () => {
   const product_id = JSON.parse(localStorage.getItem("product_details"));
 
-  const url = "https://e-com-nr.herokuapp.com/product/" + product_id;
+  const url = "https://gangadhar.cyclic.app/product/" + product_id;
   const res = await fetch(url);
   const data = await res.json();
 
